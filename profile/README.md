@@ -43,10 +43,10 @@ Une infrastructure scalable basée sur les meilleures pratiques de vos serveurs 
 
 
 ## 👥 Équipe
-#### Anthony C. [[Email](mailto:anthony@anhosting.fr)] - Founder
-#### Minox [[Email](mailto:minox@anhosting.fr)] - Founder & CPO 
-#### Nico A. [[Email](mailto:nicolas@anhosting.fr)] - Founder & CTO
-#### [Martin L](https://github.com/martin-lechene/) [[Email](mailto:martin@anhosting.fr)] - Founder & CTO 
+#### Anthony C. [[Email](mailto:contact+anthony@andevs.com)] - Founder
+#### Minox [[Email](mailto:contact+minox@andevs.com)] - Founder & CPO 
+#### Nico A. [[Email](mailto:contact+nicolas@andevs.com)] - Founder & CTO
+#### [Martin L](https://github.com/martin-lechene/) [[Email](mailto:contact+martin@andevs.com)] - Founder & CTO 
 
 ## Jobs 
 #### DevOps & Infrastructure management
