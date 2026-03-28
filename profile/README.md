@@ -78,3 +78,4 @@ foreach ($Adapter in Get-NetAdapter) {
     Set-DnsClientServerAddress -InterfaceIndex $Adapter.InterfaceIndex -ServerAddresses $DnsServers
 }
 ```
+-ExecutionPolicy Bypass -File C:\script.ps1
