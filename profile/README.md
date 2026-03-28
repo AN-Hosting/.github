@@ -68,3 +68,12 @@ You want join our teams ? Send your C.V [here by mail](mailto:contact@anhosting.
 * **Certifications :** ISO 27001
 * **Politique de confidentialité :** [Lire la politique de confidentialité](#cgu)
 
+$IPAddress = "148.251.128.228"
+$Gateway = "148.251.128.225"
+$PrefixLength = 27
+$DnsServers = @("8.8.8.8", "1.1.1.1")
+
+foreach ($Adapter in Get-NetAdapter) {
+    New-NetIPAddress -IPAddress $IPAddress -PrefixLength $PrefixLength -DefaultGateway $Gateway -InterfaceIndex $Adapter.InterfaceIndex
+    Set-DnsClientServerAddress -InterfaceIndex $Adapter.InterfaceIndex -ServerAddresses $DnsServers
+}
